@@ -1,0 +1,26 @@
+# Local parameter files with real values
+*.parameters.local.json
+*.local.bicepparam
+*.local.json
+
+# Compiled ARM output from Bicep
+*.json.bak
+main.json
+
+# Azure CLI local state
+.azure/
+
+# Secrets and environment
+*.env
+.env*
+*.pem
+*.key
+secrets/
+
+# Editor
+.vscode/settings.json
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
