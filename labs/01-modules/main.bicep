@@ -17,6 +17,7 @@ module network 'modules/vnet.bicep' = {
     subnets: [
       { name: 'snet-app', prefix: '10.0.1.0/24' }
       { name: 'snet-data', prefix: '10.0.2.0/24' }
+      { name: 'snet-mgmt', prefix: '10.0.3.0/24' }
     ]
   }
 }
